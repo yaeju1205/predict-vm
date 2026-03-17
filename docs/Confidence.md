@@ -5,7 +5,7 @@
 ## Transition Probability Matrix (전이 확률 행렬)
 특정 명령어 에서 변수​가 사용되었을 때, 다음 인스트럭션에서 다른 변수들이​ 사용될 확률을 계산합니다
 
-- P(vb​∣va​)=Count(va​->vb​) / Count(va​)​
+- P(vb|va​)=Count(va​->vb​) / Count(va​)​
 
 ## Distance-based Density Estimation (거리 기반 밀도 예측)
 현제 pc 에서 다음 사용 거리를 기반으로 예측합니다
@@ -19,7 +19,8 @@
 
 분기확률에따라 레지스터 배치를 미리 변경합니다
 
-## 4. Exponential Decay (지수적 감소)
-과거의 확률이 현재까지 영향을 주지 않도록, 시간의 흐름에 따라 과거 데이터 점점 줄입니다
+분기를 예측하는 과정은 `docs/Branch.md` 를 참고하세요
 
-
+## 5. Exponential Decay (지수적 감소)
+과거의 확률이 현재까지 영향을 주지 않도록,
+시간의 흐름에 따라 과거 데이터 점점 줄입니다
