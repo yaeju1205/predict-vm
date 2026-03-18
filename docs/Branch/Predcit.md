@@ -24,6 +24,7 @@
 - y = y=∑ i=0 n wi * xi​
 - xi 는 최근 분기 이력입니다 (1 또는 -1)
 - y 가 0 보다 크다면 취함 0 이하라면 취하지 않음 으로 판단합니다
+
 학습 과정은 `docs/Branch/Neural.md` 를 참고하세요
 
 ## 5. Misprediction Penalty (예측 실패 시의 페널티)
