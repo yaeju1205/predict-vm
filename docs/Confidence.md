@@ -19,7 +19,7 @@
 
 분기확률에따라 레지스터 배치를 미리 변경합니다
 
-분기를 예측하는 과정은 `docs/Branch.md` 를 참고하세요
+분기를 예측하는 과정은 `docs/Branch/Predict.md` 를 참고하세요
 
 ## 5. Exponential Decay (지수적 감소)
 과거의 확률이 현재까지 영향을 주지 않도록,
