@@ -1,8 +1,6 @@
 # Predcit
 예측 과정을 설명합니다
 
-다음 사용할 변수를 예측하는 과정은 `docs/Confidence.md` 를 참고하세요
-
 모든 위치는 pc (program counter) 를 기준으로 설명합니다
 
 ## 1. Analysis (분석) 
@@ -28,6 +26,8 @@
 레지스터가 부족할 때 어떤 변수를 메모리로 둘지 결정하는 spill cost 를 얻는 수식입니다
 
 우선사항(Priority) = (명령어 가중치(Instruction Weight) * 다음사용 확율 (Confidence)) / 변수 점유 시간(Live Range)
+
+다음 사용할 변수를 예측하는 과정은 `docs/Confidence.md` 를 참고하세요
 
 ## 3. Allocation (할당)
 

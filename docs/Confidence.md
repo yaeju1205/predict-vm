@@ -21,6 +21,6 @@
 
 분기를 예측하는 과정은 `docs/Branch/Predict.md` 를 참고하세요
 
-## 5. Exponential Decay (지수적 감소)
+## 4. Exponential Decay (지수적 감소)
 과거의 확률이 현재까지 영향을 주지 않도록,
 시간의 흐름에 따라 과거 데이터 점점 줄입니다
