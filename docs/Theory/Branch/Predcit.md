@@ -13,6 +13,10 @@
 
 ## 2. Correlated Branch Prediction (상관 분기 예측)
 특정 분기 결과가 다른 분기와 관계가 있다는점을 이용합니다
+### Global History Register (글로벌 히스토리 레지스터)
+최근 실행된 N개의 분기 결과를 비트로 저장합니다 (0 = Not Taken, 1 = Taken)
+
+현재 pc와 GHR을 xor 연산하여 패턴 히스토리 테이블(PHT)의 인덱스를 만듭니다
 
 ## 3. 분기 목적지 버퍼 BTB (Branch Target Buffer)
 일종의 캐시 메모리로 분기 명령어의 주소와 그 명령어가 이전에 실제로 점프했던 목적지 주소를 쌍으로 저장합니다
